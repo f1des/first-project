@@ -13,6 +13,7 @@
 
 a {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 p {
@@ -85,12 +86,11 @@ p {
 }
 
 .description {
-  background-color: #f2f2f2;
 }
 
 .two-columns {
   position: relative;
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
   width: 80%;
   min-height: 366px;
   display: flex;
@@ -107,13 +107,17 @@ p {
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  align-items: center;
 }
 
 .two-columns__span-accent {
-  margin: 30px 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.two-columns__unification  {
+  margin: 30px 0;
 }
 
 .two-columns__paragraph {
@@ -121,6 +125,58 @@ p {
   font-size: 24px;
   font-weight: normal;
 }
+
+.digits {
+  margin: 100px auto 40px auto;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+
+.table__cell {
+  width: 250px;
+  margin-bottom: 60px;
+}
+
+.table__heading {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text-bank {
+  margin-top: 20px;
+}
+
+
+
 
 .feyman {
   background-color: #f2f2f2;
