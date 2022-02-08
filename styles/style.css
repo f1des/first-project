@@ -159,6 +159,7 @@ p {
 .table__cell {
   width: 250px;
   margin-bottom: 60px;
+  list-style-type: none;
 }
 
 .table__cell:nth-last-child(-n+4) {
@@ -178,13 +179,9 @@ p {
   font-weight: normal;
 }
 
-.table__text-bank {
-  margin-top: 20px;
-}
-
 .feynman {
   position: relative;
-  background: url(/images/feynman.png) 867px 637px no-repeat;
+  background: url(../images/feynman.png) 867px 637px no-repeat;
   background-position: left bottom;
   height: 890px;
   text-align: center;
@@ -235,8 +232,7 @@ p {
 
 .kaufman__triangle {
   position: absolute;
-  width: 877px;
-  height: 877px;
+  background: url(../images/kaufman-triangle.svg) 877px 877px no-repeat;
   right: 0;
   margin-right: -210px;
   z-index: -1;
@@ -274,6 +270,7 @@ p {
   width: 200px;
   color: white;
   margin: 80px 0;
+  list-style-type: none;
 }
 
 .table__cell_theme_dark:nth-last-child(-n+5) {
@@ -334,6 +331,8 @@ p {
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
   margin-right: 10px;
 }
 
