@@ -285,14 +285,17 @@
   justify-content: space-between;
   width: 90%;
   margin: auto;
+  min-height: 250px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
-  position: relative;
-  display: flex;
   flex-basis: 711px;
   justify-content: space-between;
-  flex-direction: column;
 }
 
 .footer__column-heading {
