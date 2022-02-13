@@ -7,6 +7,8 @@
 
 .header {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -54,6 +56,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 .header__main-illustration {
@@ -63,6 +67,7 @@
   width: 765px;
   height: 608px;
   z-index: 1;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -142,12 +147,13 @@
 }
 
 .table {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
-  padding-left: 0;
 }
 
 .table__cell {
@@ -167,6 +173,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin: 20px 0 0;
 }
 
 .feynman {
@@ -227,31 +234,15 @@
 }
 
 .section-title_theme_dark {
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  margin: 0 auto;
-  text-align: center;
   color: #fff;
 }
 
 .section-subtitle_theme_dark {
-  width: 60%;
-  margin: 20px auto 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
   color: #fff;
 }
 
 .table_theme_dark {
-  width: 1100px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
+  color: #fff;
 }
 
 .table__cell_theme_dark {
