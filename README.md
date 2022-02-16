@@ -1,8 +1,8 @@
-<h1 align="center">Hi there, I'm
-  <a href="#" target="_blank">Anton</a>
+<h1 align="center">Привет, меня зовут
+  <a href="tg://resolve?domain=figasik" target="_blank">Антон</a>
   <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
 </h1>
-<h3 align="center">Yandex Practicum student from Russia 🇷🇺</h3>
+<h3 align="center">Студент Яндекс Практикума</h3>
 
 <ol>
   <li>Проектная работа по Яндекс Практикуму</li>
