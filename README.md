@@ -1,5 +1,5 @@
 <h1 align="center">Hi there, I'm
-  <a href="tg://resolve?domain=figasik" target="_blank">Anton</a>
+  <a href="https://t.me/figasik" target="_blank">Anton</a>
   <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
 </h1>
 <h3 align="center">Yandex Practicum student from Russia 🇷🇺</h3>
